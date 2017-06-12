@@ -36,12 +36,14 @@ html, body {
     /*link styles */
     a:link {
         color: #21A7ED;
+        text-decoration: none;
     }
     a:visited {
         color: #21A7ED;
     }
     a:hover {
         color: hotpink;
+        text-decoration: underline;
     }
     a:active {
         color: blue;
