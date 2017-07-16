@@ -8,25 +8,52 @@ html, body {
   color: #333333;
 }
 
-@media {
-    body {
-        max-width: 375px;
-    }
+*  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+        }
+/*Mobile First*/
+
+
     .left {
       background-color: #F5F5F5;
-      width: 100%;
       height: auto;
       margin: 0 auto;
+      /*padding: 75px;*/
+      min-height: 600px;
+      text-align: center;
+      position: relative;
     }
+
+    .left-content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
     .right {
-      width: 100%;
       margin: 0 auto;
       height: auto;
+      padding: 50px;
     }
 
     .highlight {
       background-image: linear-gradient(180deg, transparent 65%, #FFCA9C 0);
       text-decoration: none;
+    }
+
+    .name {
+      color: #9C82C4;
+    }
+
+    .fa {
+      display: inline;
+    }
+
+    .icons {
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     .now  {
@@ -49,24 +76,34 @@ html, body {
         color: blue;
     }
 
-  }
+    .twa {
+      background-image: url("img/sparkles.svg");
+      height: 75px;
+      width: 75px;
+      margin: 0 auto;
+     }
+/*TABLET 638*/
 
+@media (min-width: 453px) and (max-width: 767px) {
+
+  h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
 /*DESKTOP*/
-  @media all and (min-width:376px) {
-      body {
-          max-width: 1200px;
-      }
+@media (min-width: 768px) {
+
 /*left side styles */
+
 .left {
   float: left;
-  background-color: #F5F5F5;
   position:fixed;
   left:0;
   top:0;
   width: 50%;
   height:100%;
-  text-align: center;
 }
 
   .left-content {
@@ -84,26 +121,6 @@ h1 {
   width: 80%;
 }
 
-.name {
-  color: #9C82C4;
-}
-
-.fa {
-  display: inline;
-}
-
-.icons {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/*right side styling*/
-
-/*.highlight {
-  background-image: linear-gradient(180deg, transparent 65%, #FFCA9C 0);
-  text-decoration: none;
-}*/
-
 .right {
   float:right;
   background-color: #fff;
@@ -113,61 +130,15 @@ h1 {
   width: 50%;
   height:100%;
   overflow-y: scroll;
-}
-
-.right-content {
-  width: 80%;
-padding: 20px;
-}
-
-.twa {
-  background-image: url("img/sparkles.svg");
-  height: 75px;
-  width: 75px;
-  margin: 0 auto;
-}
-
-
-/*.now  {
-  color: #BDCAD1 !important;
-}
-
-/*link styles */
-/*a:link {
-    color: #21A7ED;
-}
-a:visited {
-    color: #21A7ED;
-}
-a:hover {
-    color: hotpink;
-}
-a:active {
-    color: blue;
-}*/*/
+ }
 
 }
 
-/******MEQIA QUERIES ********/
+/*
+left div was
+padding 200px;
+min-height: 700px;
 
-/*IDK what the heck i'm doing here tbh - just trying anything to see what works! *facepalm* *****/
-
-/*@media (max-width: 700px) {
-  .left {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    left:0;
-    top:0;
-
-  }
-
-  .right {
-    width: 100%;
-    height:auto;
-    margin: 0 auto;
-    left:0;
-    top:0;
-
-  }
-}*/
+right div>
+padding: 50px;
+*/
