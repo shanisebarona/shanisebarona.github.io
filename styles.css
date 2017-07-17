@@ -36,7 +36,7 @@ html, body {
     .right {
       margin: 0 auto;
       height: auto;
-      padding: 50px;
+      padding: 10px 30px;
     }
 
     h1 {
@@ -90,8 +90,8 @@ html, body {
       margin: 0 auto;
      }
 
-/*DESKTOP*/
-@media (min-width: 768px) {
+  /*DESKTOP*/
+  @media (min-width: 768px) {
 
     /*left side styles */
 
