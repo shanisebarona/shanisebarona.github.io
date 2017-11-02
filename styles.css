@@ -33,11 +33,11 @@ html, body {
       transform: translateY(-50%);
     }
 
-    .right {
+    /*.right {
       margin: 0 auto;
       height: auto;
       padding: 10px 30px;
-    }
+    }*/
 
     h1 {
       margin: 50px auto;
