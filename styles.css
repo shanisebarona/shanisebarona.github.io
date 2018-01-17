@@ -2,127 +2,78 @@
 
 /*all styles */
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif;
-  color: #333333;
-}
+      margin: 0;
+      padding: 0;
+      color: #333333;
+      font-family: 'Inconsolata', monospace;
+  }
 
-*  {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-        }
+  *  {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
 
-
-/*Mobile First*/
-
-    .left {
-      background-color: #F5F5F5;
-      margin: 0 auto;
-      min-height: 600px;
-      text-align: center;
-      position: relative;
+  .container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: 100px auto auto 100px;
+      height: 100vh;
+      align-items: center;
     }
 
-    .left-content {
-      position: absolute;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-    }
-
-    .right {
-      margin: 0 auto;
-      height: auto;
-      padding: 10px 30px;
-    }
-
-    h1 {
-      margin: 50px auto;
-      width: 90%;
-    }
-
-    .highlight {
-      background-image: linear-gradient(180deg, transparent 65%, #FFCA9C 0);
-      text-decoration: none;
-    }
-
-    .name {
-      color: #9C82C4;
-    }
-
-    .fa {
-      display: inline;
-    }
-
-    .icons {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    .now  {
-      color: #BDCAD1 !important;
-    }
-
-    /*link styles */
-    a:link {
-        color: #21A7ED;
-        text-decoration: none;
-    }
-    a:visited {
-        color: #21A7ED;
-    }
-    a:hover {
-        color: hotpink;
-        text-decoration: underline;
-    }
-    a:active {
-        color: blue;
-    }
-
-    /*sparkle*/
-    .twa {
+/*sparkle*/
+  .twa-1 {
       background-image: url("img/sparkles.svg");
-      height: 75px;
-      width: 75px;
-      margin: 0 auto;
+      height: 40px;
+      width: 40px;
+      margin: 30px;
+      grid-column: 3 / 3;
      }
 
-  /*DESKTOP*/
-  @media (min-width: 768px) {
+  .brand {
+    grid-column: 4 / -4;
+  }
+  p {
+    font-size: 20px;
+  }
 
-    /*left side styles */
+  .intro {
+    font-size: 30px;
+    margin-top: 5em;
+  }
 
-    .left {
-      float: left;
-      position:fixed;
-      left:0;
-      top:0;
-      width: 50%;
-      height:100%;
-    }
-
-      .left-content {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    /*right side styles*/
-
-    .right {
-      float:right;
-      background-color: #fff;
-      position: fixed;
-      right:0;
-      top:0;
-      width: 50%;
-      height:100%;
-      overflow-y: scroll;
+  .twa-2 {
+      background-image: url("img/sparkles.svg");
+      height: 40px;
+      width: 40px;
+      margin: 30px;
+      grid-column: -5 /
      }
 
+  main {
+      grid-column: 4 / -4;
+  }
+
+  .now {
+    grid-column: 4 / span 3;
+  }
+  .links {
+    grid-column: 7 /span 3;
+  }
+
+.links a {
+    display: block;
+  }
+
+.now, .links {
+
+  }
+
+.footer {
+  background-color: #f1f1fa;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
 }
