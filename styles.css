@@ -2,6 +2,7 @@
 
 /*all styles */
 html, body {
+
       margin: 0;
       padding: 0;
       color: #333333;
@@ -20,6 +21,7 @@ html, body {
       grid-template-rows: 100px auto auto 100px;
       height: 100vh;
       align-items: center;
+
     }
 
 /*sparkle*/
@@ -62,11 +64,13 @@ html, body {
     grid-column: 7 /span 3;
   }
 
+
 .links a {
     display: block;
   }
 
 .now, .links {
+
 
   }
 
@@ -77,3 +81,4 @@ html, body {
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 }
+
