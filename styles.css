@@ -18,12 +18,11 @@ html, body {
   .container {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: 100px auto auto 100px;
+      grid-template-rows: 100px auto auto auto;
       height: 100vh;
       align-items: center;
 
     }
-
 /*sparkle*/
   .twa-1 {
       background-image: url("img/sparkles.svg");
@@ -36,13 +35,14 @@ html, body {
   .brand {
     grid-column: 4 / -4;
   }
+
   p {
     font-size: 20px;
   }
 
   .intro {
     font-size: 30px;
-    margin-top: 5em;
+    padding: 2em 0;
   }
 
   .twa-2 {
@@ -59,26 +59,29 @@ html, body {
 
   .now {
     grid-column: 4 / span 3;
+    height: 100%
   }
+
   .links {
     grid-column: 7 /span 3;
   }
 
 
 .links a {
-    display: block;
-  }
-
-.now, .links {
 
 
   }
 
-.footer {
+  .links {
+    height: 100%;
+    padding-left: 5em;
+
+  }
+
+  .footer {
   background-color: #f1f1fa;
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 }
-
