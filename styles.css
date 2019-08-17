@@ -1,84 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat&display=swap');
 
-/*all styles */
 html, body {
+  margin: 0;
+  font-size: 16px;
+  color: #505050;
+}
 
-      margin: 0;
-      padding: 0;
-      color: #333333;
-      font-family: 'Inconsolata', monospace;
-  }
+a {
+  color: #505050;
+  text-decoration: none;
+}
 
-  *  {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
+a:hover {
+  color: #FF6542;
+}
 
-  .container {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: 100px auto auto 100px;
-      height: 100vh;
-      align-items: center;
-
-    }
-
-/*sparkle*/
-  .twa-1 {
-      background-image: url("img/sparkles.svg");
-      height: 40px;
-      width: 40px;
-      margin: 30px;
-      grid-column: 3 / 3;
-     }
-
-  .brand {
-    grid-column: 4 / -4;
-  }
-  p {
-    font-size: 20px;
-  }
-
-  .intro {
-    font-size: 30px;
-    margin-top: 5em;
-  }
-
-  .twa-2 {
-      background-image: url("img/sparkles.svg");
-      height: 40px;
-      width: 40px;
-      margin: 30px;
-      grid-column: -5 /
-     }
-
-  main {
-      grid-column: 4 / -4;
-  }
-
-  .now {
-    grid-column: 4 / span 3;
-  }
-  .links {
-    grid-column: 7 /span 3;
-  }
-
-
-.links a {
-    display: block;
-  }
-
-.now, .links {
-
-
-  }
-
-.footer {
-  background-color: #f1f1fa;
+nav {
   display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: column;
+  height: 100px;
+  padding: 0 40px; /*instead give site a wrapper and give wrapper padding */
+}
+
+#title {
+  display: grid;
+  grid-auto-flow:column;
+  justify-content: start;
   align-items: center;
+}
+
+.nav-links {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow:column;
+  grid-gap: 1.5em;
+}
+
+.nav-links a {
+  font-size: 18px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.name {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+
 }
 
