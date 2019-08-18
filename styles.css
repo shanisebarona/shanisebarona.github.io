@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat&display=swap');
 
+
 html, body {
   margin: 0;
   font-size: 16px;
@@ -9,6 +10,7 @@ html, body {
   margin:0;
   padding: 20px 100px;
 }
+
 a {
   color: #505050;
   text-decoration: none;
@@ -18,6 +20,7 @@ a:hover {
   color: #FF6542;
 }
 
+/* NAV STYLING */
 nav {
   display: grid;
   grid-auto-flow: column;
@@ -56,3 +59,26 @@ nav {
 
 }
 
+/* HI STYLING */
+.hero {
+  display: grid; 
+  place-items: center;
+}
+
+.hi {
+  font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 0 200px;
+    line-height: 2;
+}
+
+/* PROJECTS STYLING */
+
+main {
+  place-items: center;
+  margin: 50px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2em;
+  height: 100px;
+}
