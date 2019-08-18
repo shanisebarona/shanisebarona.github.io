@@ -1,14 +1,7 @@
 <main>
-    
-  <div class="project">
-    <a href="http://shanisebarona.com/idiomsyncrasy" target="_blank"> Idiomsyncrasy</a>
+  {% for item in site.data.projects %}
+    <div class="project">
+      <a href="{{ item.link }}" target="_blank"> {{ item.name }}</a>
     </div>
-    
-  <div class="project">
-    <a href="Blah"> Second Project goes here</a>
-  </div>
-    
-  <div class="project">
-    <a href="Blah"> Third Project goes here</a>
-  </div>
+  {% endfor %}
 </main>
