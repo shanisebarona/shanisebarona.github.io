@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat&display=swap');
 
-
 html, body {
   margin: 0;
   font-size: 16px;
@@ -8,8 +7,8 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
-  margin:0;
-  padding: 20px 100px;
+    margin: 0 auto;
+    max-width: 1060px;
 }
 
 a {
@@ -26,7 +25,7 @@ nav {
   display: grid;
   grid-auto-flow: column;
   height: 100px;
-  padding: 0 40px; /*instead give site a wrapper and give wrapper padding */
+  padding: 0 50px;
 }
 
 #title {
@@ -47,6 +46,7 @@ nav {
 .nav-links a {
   font-size: 18px;
   font-family: 'Inconsolata', monospace;
+
 }
 
 .name {
@@ -59,15 +59,21 @@ nav {
 .hero {
   display: grid; 
   place-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  margin: 0 50px;
 }
 
 .hi {
-  font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    padding: 0 200px;
-    line-height: 2;
+  font-size: 22px;
+  padding: 0 50px;
+  line-height: 2;
 }
 
+.wave {
+      font-size: 3rem;
+    margin-left: 50px;
+}
 /* PROJECTS STYLING */
 
 main {
@@ -88,3 +94,15 @@ main {
   opacity: 0.75;
   color: #fff;
 }
+
+/* ABOUT STYLIMG */
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+}
+
+.about {
+  padding: 0 100px;
+}
+
