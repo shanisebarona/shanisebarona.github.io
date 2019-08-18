@@ -5,6 +5,7 @@ html, body {
   margin: 0;
   font-size: 16px;
   color: #505050;
+  font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
   margin:0;
@@ -54,11 +55,6 @@ nav {
   font-size: 1.5rem;
 }
 
-.description {
-  font-family: 'Montserrat', sans-serif;
-
-}
-
 /* HI STYLING */
 .hero {
   display: grid; 
@@ -75,10 +71,15 @@ nav {
 /* PROJECTS STYLING */
 
 main {
-  place-items: center;
   margin: 50px;
   display: grid;
   grid-auto-flow: column;
   grid-gap: 2em;
   height: 100px;
+}
+
+.project {
+  background-color: #FF6542;
+  display: grid;
+  place-items: center;
 }
