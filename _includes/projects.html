@@ -1,7 +1,5 @@
 <main>
   {% for item in site.data.projects %}
-    <div class="project">
-      <a href="{{ item.link }}" target="_blank"> {{ item.name }}</a>
-    </div>
+      <a href="{{ item.link }}" class ="project" target="_blank"> {{ item.name }}</a>
   {% endfor %}
 </main>

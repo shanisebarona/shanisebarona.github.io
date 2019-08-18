@@ -83,3 +83,8 @@ main {
   display: grid;
   place-items: center;
 }
+
+.project:hover {
+  opacity: 0.75;
+  color: #fff;
+}
