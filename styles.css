@@ -5,7 +5,10 @@ html, body {
   font-size: 16px;
   color: #505050;
 }
-
+.wrapper {
+  margin:0;
+  padding: 50px 75px;
+}
 a {
   color: #505050;
   text-decoration: none;
