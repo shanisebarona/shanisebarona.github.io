@@ -25,7 +25,7 @@ nav {
   display: grid;
   grid-auto-flow: column;
   height: 100px;
-  padding: 0 50px;
+  padding: 10px 50px;
 }
 
 #title {
@@ -69,9 +69,10 @@ nav {
   line-height: 2;
 }
 
-.wave {
-      font-size: 3rem;
-    margin-left: 50px;
+ .wave {
+  font-size: 3rem;
+  margin-left: 50px;
+  animation: wave-animation 0.3s infinite;
 }
 
 /* PROJECTS STYLING */
@@ -108,3 +109,24 @@ h2 {
   padding: 0 100px;
 }
 
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+  /* BLOG STYLING */
+  .blog-list {
+    margin: 0 75px;
+  }
+
+  .blog-post {
+    margin: 0 75px;
+  }
