@@ -1,5 +1,6 @@
 
 url: http://shanisebarona.com/
+permalink: /:categories/:title/
 
 author:
   name: Shanise Barona
