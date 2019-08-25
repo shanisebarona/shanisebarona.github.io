@@ -2,7 +2,7 @@
 
 html, body {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: #505050;
   font-family: 'Montserrat', sans-serif;
 }
@@ -11,8 +11,12 @@ html, body {
     max-width: 1060px;
 }
 
+::selection {
+  background-color: #FFD5CB;
+}
+
 a {
-  color: #505050;
+  color: #FF6542;
   text-decoration: none;
 }
 
@@ -44,15 +48,24 @@ nav {
 }
 
 .nav-links a {
-  font-size: 18px;
   font-family: 'Inconsolata', monospace;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #505050;
+}
 
+.nav-links a:hover, .name a:hover  {
+  color: #FF6542;
 }
 
 .name {
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.name a {
+  color: #505050;
 }
 
 /* HI STYLING */
@@ -64,12 +77,12 @@ nav {
 }
 
 .hi {
-  font-size: 22px;
+  font-size: 1.5rem;
   padding: 0 50px;
   line-height: 2;
 }
 
- .wave {
+.wave {
   font-size: 3rem;
   margin-left: 50px;
   animation: wave-animation 0.3s infinite;
@@ -91,6 +104,7 @@ main {
   place-items: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  color: #505050;
 }
 
 .project:hover {
@@ -127,11 +141,37 @@ h2 {
     margin: 0 75px;
   }
 
+  .blog-list a {
+    color: #505050
+  }
+
   .blog-post {
     margin: 0 75px;
   }
 
   /* POST STYLING */
-  .post-category {
-    
+  .post-url:hover {
+    color: #FF6542;
   }
+
+  .post-category {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fbe1cf;
+    font-weight: 600;
+  }
+
+  .post-category:hover {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF6542;
+    font-weight: 600;
+  }
+
+  .post-category:active {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF6542;
+    font-weight: 600;
+  }
+

@@ -2,7 +2,9 @@
 layout: default
 ---
 <section class="blog-post"> 
-  <h1>{{ page.title }}</h1>
-  <p> <a href="/{{ page.categories }}" class="post-category">{{ page.categories }}</a> | {{ page.date | date: '%b %d, %Y' }}</p>
+  <section class="post-intro">
+    <h1>{{ page.title }}</h1>
+    <p> <a href="/{{ page.categories }}" class="post-category">{{ page.categories }}</a> | {{ page.date | date: '%b %d, %Y' }}</p>
+  </section>
   {{ content }}
 </section>
