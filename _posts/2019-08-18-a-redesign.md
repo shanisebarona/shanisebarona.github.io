@@ -6,6 +6,7 @@ categories:
   - code
 tags:
   - jekyll
+  - testing
 ---
 
 A test post
