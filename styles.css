@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Montserrat&display=swap');
 
-html, body {
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
+  height: 100%;
   font-size: 18px;
   color: #3E363F;
   font-family: 'Montserrat', sans-serif;
-  background-color: #FFF3E7;
+  background-color: rgba(255, 243, 231, .4);
 }
 .wrapper {
     margin: 0 auto;
@@ -17,7 +22,7 @@ html, body {
 }
 
 a {
-  color: #FFAF8A;
+  color: rgba(250, 91, 70);
   text-decoration: none;
 }
 
@@ -49,24 +54,24 @@ nav {
 }
 
 .nav-links a {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'DM Serif Text', serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #3E363F;
 }
 
 .nav-links a:hover, .name a:hover  {
-  color: #FFAF8A;
+  color: rgba(250, 91, 70);
 }
 
 .name {
-  font-family: 'Inconsolata', monospace;
+  font-family:'DM Serif Text', serif;
   font-weight: 700;
-  font-size: 1.4rem;
 }
 
 .name a {
   color: #505050;
+  font-size: 1.4rem;
 }
 
 /* HI STYLING */
@@ -74,13 +79,16 @@ nav {
   display: grid; 
   place-items: center;
   grid-auto-flow: column;
-  margin: 0 50px;
+  margin: 150px 50px;
 }
 
 .hi {
   font-size: 2rem;
   padding: 0 50px;
   line-height: 2;
+  font-family: 'DM Serif Text', serif;
+  color: rgba(250, 91, 70);
+  font-weight: bold;
 }
 
 .wave {
@@ -103,7 +111,7 @@ main {
 }
 
 .project {
-  background-color: #FFAF8A;
+  background-color:rgba(255,175,138, .7);
   display: grid;
   place-items: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
@@ -114,12 +122,13 @@ main {
 .project:hover {
   opacity: 0.75;
   color: #fff;
+  background-color: rgba(128,155,206);
 }
 
 /* ABOUT STYLIMG */
 
 h2 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'DM Serif Text', serif;
   font-weight: 700;
 }
 
