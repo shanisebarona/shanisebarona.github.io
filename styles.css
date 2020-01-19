@@ -10,7 +10,7 @@ body {
   font-size: 18px;
   color: #3E363F;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgba(255, 243, 231, .4);
+  background-color: rgba(245, 231, 218, 0.712);
 }
 .wrapper {
     margin: 0 auto;
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: rgba(250, 91, 70);
+  color: rgba(234, 80, 67, 0.95);
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-links a:hover, .name a:hover  {
-  color: rgba(250, 91, 70);
+  color: rgba(234, 80, 67, 0.95);
 }
 
 .name {
@@ -87,7 +87,7 @@ nav {
   padding: 0 50px;
   line-height: 2;
   font-family: 'DM Serif Text', serif;
-  color: rgba(250, 91, 70);
+  color: rgba(234, 80, 67, 0.95);
   font-weight: bold;
 }
 
@@ -164,28 +164,28 @@ h2 {
 
   /* POST STYLING */
   .post-url:hover {
-    color: #FFAF8A;
+    color: rgba(234, 80, 67, 0.95);
   }
 
   .post-category {
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #FFAF8A;
+    border-bottom-color: rgba(234, 80, 67, 0.95);
     font-weight: 600;
-    color: #809BCE
+    color: rgba(234, 80, 67, 0.95);
   }
 
   .post-category:hover {
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #809BCE;
+    border-bottom-color:rgba(234, 80, 67, 0.95);
     font-weight: 600;
   }
 
   .post-category:active {
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #809BCE;
+    border-bottom-color: rgba(234, 80, 67, 0.95);
     font-weight: 600;
   }
 
