@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     {% include meta.html %}
     <title>{{ page.title }}</title>
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/lemon_1f34b.png">
     <link rel="stylesheet" href="/styles.css">
     {% if site.tags != "" %}
       {% include tags.html %}
@@ -13,7 +14,6 @@
 
   <body>
     <section class="wrapper">
-      {% include nav.html %}<br></br>
       {{ content }}
     </section>
   </body>

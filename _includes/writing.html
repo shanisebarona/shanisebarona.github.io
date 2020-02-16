@@ -1,0 +1,9 @@
+<article class="writing">
+  {% for item in site.data.writing %}
+      <a href="{{ item.link }}" class ="written" target="_blank"> 
+        {{ item.name }}
+        <br>
+        <time datetime="dates"> {{item.date}}</time>
+      </a>
+  {% endfor %}
+</article>
