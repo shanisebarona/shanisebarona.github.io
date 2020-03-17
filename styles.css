@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Montserrat&display=swap');
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
+
+/* structure */
 
 body {
   margin: 0;
@@ -32,22 +34,19 @@ body {
   grid-auto-rows: 1fr;
 }
 
-/* HI STYLING */
-/* .hero {
-  display: grid; 
-  place-items: center;
-  grid-auto-flow: column;
-  margin: 150px 50px;
+/* style */
+.hi {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding: right: 50px;
+  font-size: 3em;
 }
 
-.hi {
-  font-size: 2rem;
-  padding: 0 50px;
-  line-height: 2;
-  font-family: 'DM Serif Text', serif;
-  color:rgba(97, 67, 187, 0.88);
-  font-weight: bold;
+.about {
+  margin-left: 50px
 }
+/*
+
 
 .wave {
   font-size: 3rem;
