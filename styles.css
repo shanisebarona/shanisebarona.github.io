@@ -23,7 +23,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 1fr;
+  
 }
+
+.side-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
 /* HI STYLING */
 /* .hero {
   display: grid; 

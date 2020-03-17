@@ -1,0 +1,9 @@
+<article class="select-mentions">
+  {% for item in site.data.mentions %}
+      <a href="{{ item.link }}" class ="mention" target="_blank"> 
+        {{ item.name }}
+      </a>
+      <time datetime="dates"> {{item.date}}</time>
+      <br>
+  {% endfor %}
+</article>

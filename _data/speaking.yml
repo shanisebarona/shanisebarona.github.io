@@ -1,11 +1,24 @@
-- name: Example writing 
-  link: http://shanisebarona.com/idiomsyncrasy
-  date: Today's date, 2020
+- name: What are APIs?
+  where: Google Women Techmakers
+  link: https://www.youtube.com/watch?v=BRAMRUxfiXY
+  date: October 2018
 
-- name: Example writings
-  link: http://google.com
-  date: Today's date, 2020
+- name: Chrome DevTools
+  where: Google Women Techmakers
+  link: https://www.youtube.com/watch?v=37dIV-4QT1s
+  date: October 2018
 
-- name: Example writingss
-  link: http://google.comm
-  date: Today's date, 2020
+- name: What the Tech?
+  where: The United State of Women Summit
+  link: https://theunitedstateofwomen2018.sched.com/speaker/shanise_barona.1y0ad09s
+  date: May 2018
+
+- name: Women in Tech Panel
+  where: Flatiron School
+  link: https://www.meetup.com/Flatiron-School-Presents/events/245287745/
+  date: April 2018
+
+- name: Fall in Love with Code
+  where: Skillcrush
+  link: https://skillcrush.com/blog/free-webinar-why-i-love-code/
+  date: February 2018

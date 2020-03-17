@@ -2,8 +2,8 @@
   {% for item in site.data.speaking %}
       <a href="{{ item.link }}" class ="speaking-engagement" target="_blank"> 
         {{ item.name }}
-        <br>
-        <time datetime="dates"> {{item.date}}</time>
       </a>
+      <time datetime="dates"> {{item.date}}</time>
+      <br>
   {% endfor %}
 </article>
