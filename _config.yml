@@ -1,0 +1,14 @@
+
+url: http://shanisebarona.com/
+permalink: /:categories/:title/
+
+author:
+  name: Shanise Barona
+  email: hi@shanisebarona.com
+
+repository: shanisebarona/shanisebarona.github.io
+
+title: Shanise Barona
+description: "Personal site of software engineer Shanise Barona."
+twitter: "@shanisebarona"
+

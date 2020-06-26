@@ -1,0 +1,20 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title != 'Shanise Barona' %}{{ page.title }} | Shanise Barona {% else %}Shanise Barona{% endif %}</title>
+
+    <meta name="description" content="{% if page.layout != 'default' %}{{page.title}} | Shanise Barona | {% endif %}{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:site" content="{{site.twitter}}" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta name="twitter:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta name="twitter:title" content="{{page.title}}" />
+    <meta property="og:title" content="{{page.title}}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines | truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines |  truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
+    <meta name="st:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
+    <meta property="og:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="blog" />
+    <meta property="article:published_time" content="{{page.date}}" />
+    <meta property="article:author" content="Shanise Barona"/>
