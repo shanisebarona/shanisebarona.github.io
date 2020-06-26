@@ -132,6 +132,14 @@ h2 {
   font-weight: 700;
 }
 
+.tag-line {
+  color: rgba(234, 80, 67, 0.95);
+}
+
+.tag-line a {
+  text-decoration-line: underline;
+}
+
 .about {
   padding: 0 100px;
 }
