@@ -1,8 +1,5 @@
 - name: Idiomsyncrasy 
   link: http://shanisebarona.com/idiomsyncrasy
 
-- name: Coming soon! 
-  link: /no
-
-- name: TBD! 
-  link: /bye
+- name: Sephora Scraper 
+  link: https://github.com/shanisebarona/sephora-scraper
