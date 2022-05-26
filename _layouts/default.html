@@ -1,19 +1,18 @@
 <!doctype html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
     {% include meta.html %}
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/styles.css">
-    {% if site.tags != "" %}
-      {% include tags.html %}
-    {% endif %}
+
+    <link rel=icon href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">💜</text></svg>'>
+
   </head>
 
   <body>
     <section class="wrapper">
-      {% include nav.html %}<br></br>
       {{ content }}
     </section>
   </body>
