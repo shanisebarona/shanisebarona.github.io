@@ -1,4 +1,6 @@
 .DS_Store
 _site/
 .history\
-.node_modules\
+node_modules
+/public
+```
