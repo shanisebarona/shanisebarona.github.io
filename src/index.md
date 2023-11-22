@@ -1,5 +1,6 @@
 ---
 title: shanise barona
-layout: 'layouts/base.njk'
+layout: base
 ---
 
+{% include '_hi.html' %}
