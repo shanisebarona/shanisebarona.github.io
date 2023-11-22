@@ -1,6 +1,10 @@
+# misc
 .DS_Store
-_site/
 .history\
+
+# node modules and output
 node_modules
 /public
+_site/
+src/_includes/css
 ```
