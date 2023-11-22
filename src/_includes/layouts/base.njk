@@ -4,7 +4,9 @@
   {% include '_head.html' %}
 
   <body>
-    {{ content | safe }}
+    
+    <main tabindex="-1" id="main-content">{{ content | safe }}</main>
+
   </body>
-  
+
 </html>

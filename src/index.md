@@ -1,5 +1,5 @@
 ---
-title: shanise barona
+title: shanise
 layout: base
 ---
 
