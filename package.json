@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm-run-all --parallel start:eleventy start:sass",
+    "start:sass": "sass --watch css/styles.scss css/styles.css",
     "start:eleventy": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +22,9 @@
   "homepage": "https://github.com/shanisebarona/shanisebarona.github.io#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.89.2"
   }
 }
